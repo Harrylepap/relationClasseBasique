@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Personne.cs" />
     <Compile Include="Principale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voiture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -17,6 +17,7 @@ namespace RelationClasse
 
         public Voiture(Personne personne)
         {
+            this.Conducteur = new ArrayList();
             this.proprietaire = personne;
         }
 
